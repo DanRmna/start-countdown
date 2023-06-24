@@ -1,0 +1,35 @@
+{
+    "name": "start-countdown",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "Wait Until Custom Blocks": "github:teacherpinky/wait-until-blocks#v0.1.12",
+        "servo-write-pin": "github:danrmna/servo-write-pin#master",
+        "power": "github:microbit-foundation/pxt-microbit-v2-power#v0.2.3",
+        "joyfrog": "github:kittenbot/pxt-joyfrog#v0.1.7",
+        "Grove": "github:seeed-studio/pxt-grove#v0.5.0",
+        "colorbit": "github:51bit/colorbit#v0.1.4"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "main.blocks"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v6.0.8",
+        "tag": "v6.0.8",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/906fae22ad7170d594c660ce9ca627384dc36148",
+        "target": "6.0.8",
+        "pxt": "9.0.6",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
